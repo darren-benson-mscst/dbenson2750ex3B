@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : 2750Ex3bSchool.xml
+    Created on : December 3, 2015, 8:31 AM
+    Author     : mswanson
+    Description: School data: Departments, Terms, Students, Courses, etc.
+-->
+
+<school>
+    <schoolName>Southeast Tech</schoolName>
+    <!-- ============================ Terms ============================ -->
+    <terms>
+        <term><yearTerm>20161</yearTerm><termName>2015 Summer</termName></term>
+        <term><yearTerm>20163</yearTerm><termName>2015 Fall</termName></term>
+        <term><yearTerm>20165</yearTerm><termName>2016 Spring</termName></term>
+        <term><yearTerm>20171</yearTerm><termName>2016 Summer</termName></term>
+        <term><yearTerm>20173</yearTerm><termName>2016 Fall</termName></term>
+        <term><yearTerm>20175</yearTerm><termName>2017 Spring</termName></term>
+    </terms>
+    <!-- =========================== Students =========================== -->
+    <students>
+        <student><person><lastName>Student</lastName><firstName>One</firstName></person><studentID>100001</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Two</firstName></person><studentID>100002</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Three</firstName></person><studentID>100003</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Four</firstName></person><studentID>100004</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Five</firstName></person><studentID>100005</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Six</firstName></person><studentID>100006</studentID></student>
+        <student><person><lastName>Student</lastName><firstName>Sample</firstName></person><studentID>999999</studentID></student>
+    </students>
+    <!-- ========================== Departments ========================== -->
+    <departments>
+        <department><deptID>ACCT</deptID><deptName>Accounting</deptName></department>
+        <department><deptID>ADMS</deptID><deptName>Administrative Support</deptName></department>
+        <department><deptID>COMC</deptID><deptName>Computer Careers</deptName></department>
+        <department><deptID>COMP</deptID><deptName>General Education Computers</deptName></department>
+    </departments>
+    <!-- =========================== Courses =========================== -->
+    <courses>
+        <course><courseDept>ACCT</courseDept><courseNumber>1220</courseNumber><courseName>Principles of Bookkeeping I</courseName><credits>2</credits></course>
+        <course><courseDept>ACCT</courseDept><courseNumber>1218</courseNumber><courseName>Spreadsheet Concepts and Applications</courseName><credits>3</credits></course>
+        <course><courseDept>ACCT</courseDept><courseNumber>1231</courseNumber><courseName>Database Concepts and Applications</courseName><credits>3</credits></course>
+        <course><courseDept>ADMS</courseDept><courseNumber>1417</courseNumber><courseName>Word Processing I</courseName><credits>2</credits></course>
+        <course><courseDept>ADMS</courseDept><courseNumber>1425</courseNumber><courseName>Desktop Publishing with Publisher</courseName><credits>2</credits></course>
+        <course><courseDept>ADMS</courseDept><courseNumber>1452</courseNumber><courseName>Electronic Presentations</courseName><credits>2</credits></course>
+        <course><courseDept>COMC</courseDept><courseNumber>1714</courseNumber><courseName>Microsoft Access</courseName><credits>3</credits></course>
+        <course><courseDept>COMC</courseDept><courseNumber>1741</courseNumber><courseName>Web Design with HTML and CSS</courseName><credits>3</credits></course>
+        <course><courseDept>COMC</courseDept><courseNumber>2730</courseNumber><courseName>Intro to Visual Basic.Net</courseName><credits>3</credits></course>
+        <course><courseDept>COMC</courseDept><courseNumber>2740</courseNumber><courseName>Intro Java/C/C++/C# Programming</courseName><credits>3</credits></course>
+        <course><courseDept>COMC</courseDept><courseNumber>2750</courseNumber><courseName>Object Oriented Analysis and Design</courseName><credits>3</credits></course>
+        <course><courseDept>COMP</courseDept><courseNumber>1510</courseNumber><courseName>Computer Basics</courseName><credits>1</credits></course>
+        <course><courseDept>COMP</courseDept><courseNumber>2515</courseNumber><courseName>Computers: Issues and Applications</courseName><credits>3</credits></course>
+    </courses>
+    <!-- =========================== Sections =========================== -->
+    <sections>
+        <section><sectionDept>ACCT</sectionDept><sectionCrsNum>1220</sectionCrsNum><sectionNum>101</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>ACCT</sectionDept><sectionCrsNum>1218</sectionCrsNum><sectionNum>102</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>ACCT</sectionDept><sectionCrsNum>1231</sectionCrsNum><sectionNum>103</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>ADMS</sectionDept><sectionCrsNum>1417</sectionCrsNum><sectionNum>104</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>ADMS</sectionDept><sectionCrsNum>1425</sectionCrsNum><sectionNum>105</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>ADMS</sectionDept><sectionCrsNum>1452</sectionCrsNum><sectionNum>106</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>1714</sectionCrsNum><sectionNum>107</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>1714</sectionCrsNum><sectionNum>108</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>1714</sectionCrsNum><sectionNum>209</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>1714</sectionCrsNum><sectionNum>210</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>1741</sectionCrsNum><sectionNum>211</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2730</sectionCrsNum><sectionNum>112</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2730</sectionCrsNum><sectionNum>213</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2730</sectionCrsNum><sectionNum>214</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2740</sectionCrsNum><sectionNum>115</sectionNum><capacity>30</capacity><sectionTerm>20165</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2740</sectionCrsNum><sectionNum>215</sectionNum><capacity>30</capacity><sectionTerm>20175</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2750</sectionCrsNum><sectionNum>116</sectionNum><capacity>30</capacity><sectionTerm>20163</sectionTerm></section>
+        <section><sectionDept>COMC</sectionDept><sectionCrsNum>2750</sectionCrsNum><sectionNum>216</sectionNum><capacity>30</capacity><sectionTerm>20173</sectionTerm></section>
+        <section><sectionDept>COMP</sectionDept><sectionCrsNum>1510</sectionCrsNum><sectionNum>217</sectionNum><capacity>30</capacity><sectionTerm>20175</sectionTerm></section>
+        <section><sectionDept>COMP</sectionDept><sectionCrsNum>2515</sectionCrsNum><sectionNum>218</sectionNum><capacity>30</capacity><sectionTerm>20175</sectionTerm></section>
+    </sections>
+    <!-- ========================== Assignments ========================== -->
+    <assignments>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>107</assignSectionNum><unit>1</unit><assignmentNum>A</assignmentNum><description>D2L Discussion: Introduce yourself</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>23</dueDateDay><maxPoints>10</maxPoints></assignment>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>107</assignSectionNum><unit>1</unit><assignmentNum>B</assignmentNum><description>p01-64 Chapter 1 Tutorial: Client-Recruiter DB</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>26</dueDateDay><maxPoints>30</maxPoints></assignment>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>107</assignSectionNum><unit>1</unit><assignmentNum>C</assignmentNum><description>p65 Ch1 Apply Your Knowledge</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>30</dueDateDay><maxPoints>10</maxPoints></assignment>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>108</assignSectionNum><unit>1</unit><assignmentNum>A</assignmentNum><description>p01-64 Chapter 1 Tutorial: Client-Recruiter DB</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>23</dueDateDay><maxPoints>30</maxPoints></assignment>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>108</assignSectionNum><unit>1</unit><assignmentNum>B</assignmentNum><description>p65 Ch1 Apply Your Knowledge</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>26</dueDateDay><maxPoints>10</maxPoints></assignment>
+        <assignment><assignDept>COMC</assignDept><assignCrsNum>1714</assignCrsNum><assignTerm>20163</assignTerm><assignSectionNum>108</assignSectionNum><unit>1</unit><assignmentNum>C</assignmentNum><description>p67-68 Ch1 In the Lab 1</description><dueDateYear>2015</dueDateYear><dueDateMonth>8</dueDateMonth><dueDateDay>30</dueDateDay><maxPoints>15</maxPoints></assignment>
+    </assignments>
+    <!-- ========================== CourseGrades ========================== -->
+    <courseGrades>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>107</crsGradeSecNum><crsGradeStudId>100001</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>107</crsGradeSecNum><crsGradeStudId>100002</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>107</crsGradeSecNum><crsGradeStudId>100003</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>108</crsGradeSecNum><crsGradeStudId>100004</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>108</crsGradeSecNum><crsGradeStudId>100005</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+        <courseGrade><crsGradeDept>COMC</crsGradeDept><crsGradeCrsNum>1714</crsGradeCrsNum><crsGradeTerm>20163</crsGradeTerm><crsGradeSecNum>108</crsGradeSecNum><crsGradeStudId>100006</crsGradeStudId><crsGradeGrade>Z</crsGradeGrade></courseGrade>
+    </courseGrades>
+</school>
